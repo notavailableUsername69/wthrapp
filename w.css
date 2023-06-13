@@ -1,0 +1,50 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+  }
+  
+  button {
+    background-color:#ffe14d;
+    color: #7a7c0b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #weather-info {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #weather-info p {
+    margin-bottom: 10px;
+  }
+  body{
+    background-color:#19C3FB;
+  }
+  h1{
+    color: #ffe14d;
+  }
+  ::placeholder{
+    color:rgb(79, 118, 190);
+    background-color:rgb(234, 234, 197);
+  }
+p{
+  color:#596806;
+}
